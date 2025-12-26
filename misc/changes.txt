@@ -1,0 +1,54 @@
+
+index.php - branch options code
+
+<div class="form-group has-feedback">
+            <select class="form-control select2" style="width:100%" name="branch" required>
+                <?php
+				include('dist/includes/dbcon.php');
+
+                   $query3=mysqli_query($con,"select * from branch order by branch_name")or die(mysqli_error($con));
+                      while($row3=mysqli_fetch_array($query3)){
+                ?>
+                    <option value="<?php echo $row3['branch_id'];?>"><?php echo $row3['branch_name'];?></option>
+                  <?php }?>
+                </select>
+          </div>
+
+
+
+home.php
+                      <div class="col-lg-4 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                          <div class="inner">
+                            <h3>Credit</h3>
+                            <p>Apply</p>
+                          </div>
+                          <div class="icon" style="margin-top:10px">
+                            <i class="glyphicon glyphicon-user"></i>
+                          </div>
+                          <a href="creditor.php" class="small-box-footer">
+                            Go <i class="fa fa-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div><!-- ./col -->
+
+
+
+Reports
+
+<li><!-- start notification -->
+                         <a href="receivables.php">
+                              <i class="glyphicon glyphicon-th-list text-redr"></i>Account Receivables
+                            </a>
+                          </li><!-- end notification -->
+              <li><!-- start notification -->
+                         <a href="income.php">
+                              <i class="glyphicon glyphicon-th-list text-redr"></i>Branch Income
+                            </a>
+                          </li><!-- end notification -->
+                          <li><!-- start notification -->
+                         <a href="purchase_request.php">
+                              <i class="glyphicon glyphicon-usd text-blue"></i>Purchase Request
+                            </a>
+                          </li><!-- end notification -->
