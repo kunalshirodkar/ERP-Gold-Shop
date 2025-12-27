@@ -1,4 +1,4 @@
-# 🏪 SKS ERP – Retail & E-Commerce Analytics System
+# 🏪 ERP – Retail & E-Commerce Analytics System
 
 **A data-driven ERP system designed for small-to-mid retail businesses to optimize sales, inventory, and operations through structured data, dashboards, and insights.**
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Project Overview
 
-**SKS ERP** is a web-based **Enterprise Resource Planning (ERP)** system tailored for retail and showroom-based businesses such as gold shops and multi-branch specialty stores.
+**ERP** is a web-based **Enterprise Resource Planning (ERP)** system tailored for retail and showroom-based businesses such as gold shops and multi-branch specialty stores.
 
 The system replaces manual workflows with a centralized, analytics-ready platform that enables:
 
