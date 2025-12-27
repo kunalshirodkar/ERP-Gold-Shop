@@ -42,8 +42,6 @@ Business Logic Layer
 ▼
 MySQL Relational Database
 
-yaml
-Copy code
 
 ---
 
