@@ -6,7 +6,7 @@
 
 ## 🚀 Project Overview
 
-**ERP** is a web-based **Enterprise Resource Planning (ERP)** system tailored for retail and showroom-based businesses such as gold shops and multi-branch specialty stores.
+**ERP-Gold-Shop** is a web-based **Enterprise Resource Planning (ERP)** system tailored for retail and showroom-based businesses such as gold shops and multi-branch specialty stores.
 
 The system replaces manual workflows with a centralized, analytics-ready platform that enables:
 
@@ -65,9 +65,9 @@ This hierarchy enables clean data segregation and accurate reporting.
 - Acts as the primary data source for revenue analytics
 
 **Key Metrics:**
-- Daily sales
-- Average bill value
-- Transaction count
+- Daily sales  
+- Average bill value  
+- Transaction count  
 
 ---
 
@@ -76,9 +76,9 @@ This hierarchy enables clean data segregation and accurate reporting.
 - Supports reorder and procurement workflows
 
 **Analytics Use Cases:**
-- Fast-moving vs slow-moving items
-- Stock aging analysis
-- Demand pattern observation
+- Fast-moving vs slow-moving items  
+- Stock aging analysis  
+- Demand pattern observation  
 
 ---
 
@@ -88,8 +88,8 @@ This hierarchy enables clean data segregation and accurate reporting.
 - Stock replenishment support
 
 **Business Insight:**
-- Vendor dependency
-- Procurement cycle efficiency
+- Vendor dependency  
+- Procurement cycle efficiency  
 
 ---
 
@@ -98,23 +98,25 @@ This hierarchy enables clean data segregation and accurate reporting.
 - Branch-wise staff mapping
 
 **Business Angle:**
-- Workforce distribution analysis
-- Role-based accountability
+- Workforce distribution analysis  
+- Role-based accountability  
 
 ---
 
-## 📊 Sales & Reports (Analytics Core)
+## 📊 Sales & Analytics Dashboard
 
-This module represents the **analytics foundation** of the system.
+This dashboard represents the **core analytics layer** of the ERP system, designed for owners and decision-makers.
 
-### Dashboards Include:
-- Total Revenue
-- Branch-wise Sales Distribution
-- Monthly Sales Trends
-- Product-level Sales Summary
-- Inventory Status Overview
+![Sales Dashboard](Screenshots/sales-dashboard.png)
 
-Designed for **owner and management decision-making**.
+### Dashboard Highlights:
+- Total Revenue Overview  
+- Branch-wise Sales Distribution (SKS1 vs SKS2)  
+- Monthly Sales Trends  
+- Product-level Sales Summary  
+- Inventory Status Snapshot  
+
+Built to enable **quick, data-backed business decisions**.
 
 ---
 
@@ -139,12 +141,12 @@ Designed for **owner and management decision-making**.
 - vendors  
 - purchase_orders  
 
-**Relationships:**
+**Key Relationships:**
 - One branch → many employees  
 - One product → many sales records  
 - One vendor → many purchase orders  
 
-The schema is designed for efficient joins, aggregations, and reporting queries.
+The schema is optimized for **joins, aggregations, and analytical queries**.
 
 ---
 
@@ -152,9 +154,9 @@ The schema is designed for efficient joins, aggregations, and reporting queries.
 
 The system is structured so data can be easily consumed using:
 
-- SQL queries
-- Python (EDA with Pandas)
-- BI tools (Power BI / Tableau – future scope)
+- SQL queries  
+- Python (EDA with Pandas)  
+- BI tools (Power BI / Tableau – future scope)  
 
 **Example SQL Query:**
 ```sql
@@ -175,13 +177,13 @@ Copy code
 📸 Screenshots & Visuals
 Includes:
 
-Login Screens
+Login screens
 
-Admin Dashboard
+Admin dashboard
 
-Employee Dashboard
+Employee dashboard
 
-Sales and Report Screens
+Sales and reporting views
 
 These visuals help non-technical stakeholders quickly understand system functionality.
 
