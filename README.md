@@ -42,6 +42,8 @@ Business Logic Layer
 ▼
 MySQL Relational Database
 
+yaml
+Copy code
 
 ---
 
@@ -107,7 +109,7 @@ This hierarchy enables clean data segregation and accurate reporting.
 
 This dashboard represents the **core analytics layer** of the ERP system, designed for owners and decision-makers.
 
-![Sales Dashboard](Screenshots/sales-dashboard.png)
+![Sales Dashboard](Screenshots/SalesDashboard.png)
 
 ### Dashboard Highlights:
 - Total Revenue Overview  
